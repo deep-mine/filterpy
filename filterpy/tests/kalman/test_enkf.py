@@ -70,9 +70,6 @@ def test_1d_const_vel():
         plt.plot (results-ps, c='k',linestyle='--', label='3$\sigma$')
         plt.plot(results+ps, c='k', linestyle='--')
         plt.legend(loc='best')
-        #print(ps)
-    return f
-
 
 
 def test_circle():

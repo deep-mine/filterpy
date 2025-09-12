@@ -26,7 +26,7 @@ from filterpy.kalman import ExtendedKalmanFilter
 from numpy import array, eye, asarray
 
 from filterpy.common import Saver
-from filterpy.examples import RadarSim
+from .radar_sim import RadarSim
 from pytest import approx
 from scipy.spatial.distance import mahalanobis as scipy_mahalanobis
 
